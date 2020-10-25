@@ -1,0 +1,17 @@
+0 [
+	push 1
+	push 2
+	push 3
+	push 4
+	push 5
+	goto 1
+]
+1 [
+	pop 5
+	pop 4
+	push 7
+	goto 2
+]
+2 [
+	pop 7
+]
